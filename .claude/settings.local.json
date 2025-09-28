@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npm run typecheck:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run start:all:*)",
+      "Bash(curl -X POST http://localhost:3001/api/ingredients -H \"Content-Type: application/json\" -d \"{\"\"nombre\"\": \"\"Pollo\"\", \"\"calorias_por_100g\"\": 165, \"\"proteinas\"\": 31, \"\"carbohidratos\"\": 0, \"\"grasas\"\": 3.6, \"\"fibra\"\": 0, \"\"categoria\"\": \"\"Proteínas\"\"}\")",
+      "Bash(curl -X POST http://localhost:3001/api/ingredients -H \"Content-Type: application/json\" -d \"{\"\"nombre\"\": \"\"Arroz\"\", \"\"calorias_por_100g\"\": 130, \"\"proteinas\"\": 2.7, \"\"carbohidratos\"\": 28, \"\"grasas\"\": 0.3, \"\"fibra\"\": 0.4, \"\"categoria\"\": \"\"Cereales\"\"}\")",
+      "Bash(curl -X POST http://localhost:3001/api/ingredients -H \"Content-Type: application/json\" -d \"{\"\"nombre\"\": \"\"Brócoli\"\", \"\"calorias_por_100g\"\": 34, \"\"proteinas\"\": 2.8, \"\"carbohidratos\"\": 7, \"\"grasas\"\": 0.4, \"\"fibra\"\": 2.6, \"\"categoria\"\": \"\"Verduras\"\"}\")",
+      "Bash(curl -X POST http://localhost:3001/api/recipes/generate -H \"Content-Type: application/json\" -d \"{\"\"ingredientIds\"\": [\"\"736ae695-4767-455d-a6ff-1061429593f8\"\", \"\"c503ac7e-ab85-445a-bdc0-974c9bf390d3\"\"], \"\"dietaryRestrictions\"\": [], \"\"mealType\"\": \"\"almuerzo\"\", \"\"servings\"\": 2}\")",
+      "Bash(curl -X GET http://localhost:3001/api/recipes/ai/test)",
+      "Bash(curl:*)",
+      "Bash(pkill:*)",
+      "Bash(taskkill:*)",
+      "Bash(npm run:*)",
+      "Bash(mysql:*)",
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
